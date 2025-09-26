@@ -98,18 +98,7 @@ Bu sayede modelin overfitting yapmadan optimum öğrenme hızında eğitilmesi s
 
 Bu proje, bootcamp sonrasında geliştirilmeye devam edebilir ve farklı modeller ile test edilebilir.
 
----
 
-## Gereksinimler
-
-- Python 3.8+  
-- PyTorch, torchvision  
-- numpy, pandas  
-- matplotlib, seaborn  
-- scikit-learn  
-- Pillow  
-
----
 
 ## Linkler
-https://www.kaggle.com/code/ulassen/akbankderin-renme?scriptVersionId=264160091
+[https://www.kaggle.com/code/ulassen/akbankderin-renme?scriptVersionId=264160091](https://www.kaggle.com/code/ulassen/akbankderin-renme)
