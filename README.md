@@ -53,10 +53,25 @@ Notebook içerisinde tüm adımlar markdown hücreleri ile açıklanmıştır:
 
 ---
 
+## Eğitim ve Hiperparametre Seçimi
+
+Model eğitimi sırasında **batch size** ve **epoch sayısı** farklı kombinasyonlarda denenmiştir.  
+
+- Deneme süreci:  
+  - Batch size: 16, 32, 64  
+  - Epoch sayısı: 15, 25  
+- Her kombinasyon için **validation accuracy** ölçülmüş ve en iyi sonuç veren kombinasyon seçilmiştir.  
+
+> Örnek: Batch size=16 ve Epoch=25 en iyi validation performansını sağladı.  
+
+Bu sayede modelin overfitting yapmadan optimum öğrenme hızında eğitilmesi sağlanmıştır.
+
+---
+
 ## Metrikler
 
-- Validation Accuracy: ~%XX (en iyi model)
-- Test Accuracy: ~%XX  
+- Validation Accuracy: ~%75 (en iyi model)
+- Test Accuracy: ~%90  
 - Confusion Matrix ve Classification Report ile sınıf bazlı performans değerlendirildi  
 - Modelin genel başarısı tümör sınıflarını doğru şekilde ayırabilmektedir  
 
